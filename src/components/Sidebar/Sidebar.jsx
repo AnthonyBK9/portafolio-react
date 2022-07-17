@@ -33,10 +33,10 @@ const Sidebar = ({isOpen, toggle}) => {
                 </li>
             </ul>
             <div className="social-buttons-b sidebar-item">
-              <a href="https://github.com/AnthonyBK9" class="social-buttons__button social-button social-button--github" aria-label="GitHub" target="_blank">
-                <i class="fab fa-github"></i>
+              <a href="https://github.com/AnthonyBK9" className="social-buttons__button social-button social-button--github" aria-label="GitHub" target="_blank">
+                <i className="fab fa-github"></i>
               </a>
-              <a href="https://www.linkedin.com/in/antonio-bermudez/" class="social-buttons__button social-button social-button--linkedin" aria-label="CodePen" target="_blank">
+              <a href="https://www.linkedin.com/in/antonio-bermudez/" className="social-buttons__button social-button social-button--linkedin" aria-label="CodePen" target="_blank">
                 <i className="fa-brands fa-linkedin"></i>
               </a>     
             </div>

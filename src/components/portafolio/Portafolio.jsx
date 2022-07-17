@@ -21,10 +21,10 @@ const Portafolio = () => {
                     <h3>Cards</h3>
                       <p>Muestra distintas cards cambiando los mensajes y los colores</p>
                 <div className="social-buttons">
-                  <a href="#" class="social-buttons__button social-button social-button--github" aria-label="GitHub">
-                    <i class="fab fa-github"></i>
+                  <a href="#" className="social-buttons__button social-button social-button--github" aria-label="GitHub">
+                    <i className="fab fa-github"></i>
                   </a>
-                  <a href="#" class="social-buttons__button social-button social-button--codepen" aria-label="CodePen">
+                  <a href="#" className="social-buttons__button social-button social-button--codepen" aria-label="CodePen">
                     <i className="fa-solid fa-globe"></i>
                   </a>     
                 </div>
@@ -41,10 +41,10 @@ const Portafolio = () => {
                     <h3>App Clima</h3>
                       <p>Aplicación para conocer el clima de tu hubicación haciendo una consulta a aun API</p>
                 <div className="social-buttons">
-                  <a href="#" class="social-buttons__button social-button social-button--github" aria-label="GitHub">
-                    <i class="fab fa-github"></i>
+                  <a href="#" className="social-buttons__button social-button social-button--github" aria-label="GitHub">
+                    <i className="fab fa-github"></i>
                   </a>
-                  <a href="#" class="social-buttons__button social-button social-button--codepen" aria-label="CodePen">
+                  <a href="#" className="social-buttons__button social-button social-button--codepen" aria-label="CodePen">
                     <i className="fa-solid fa-globe"></i>
                   </a>     
                 </div>
@@ -61,10 +61,10 @@ const Portafolio = () => {
                     <h3>Rick and Morty App</h3>
                       <p>Aplicación de Rick y Morty en el que se muestran contenido de los diferentes pesonajes de esta popular serie animada</p>
                 <div className="social-buttons">
-                  <a href="#" class="social-buttons__button social-button social-button--github" aria-label="GitHub">
-                    <i class="fab fa-github"></i>
+                  <a href="#" className="social-buttons__button social-button social-button--github" aria-label="GitHub">
+                    <i className="fab fa-github"></i>
                   </a>
-                  <a href="#" class="social-buttons__button social-button social-button--codepen" aria-label="CodePen">
+                  <a href="#" className="social-buttons__button social-button social-button--codepen" aria-label="CodePen">
                     <i className="fa-solid fa-globe"></i>
                   </a>     
                 </div>
