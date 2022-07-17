@@ -1,0 +1,185 @@
+.skills {
+    color: #fff;
+    background: #010606;
+}
+.skills-container {
+    display: grid;
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 24px;
+    justify-content: center;
+}
+.row-skills {
+    display: grid;
+    grid-auto-columns: minmax(auto, 1fr);
+    align-items: center;
+    grid-template-areas: 'col1 col2';
+}
+.col-1-skill {
+    margin-bottom: 15px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: col1;
+}
+.col-1-skill h2 {
+    color: #01bf71;
+    text-align: center;
+    margin: 80px 0;
+    font-size: 30px;
+}
+.col-1-skill img {
+    width: 60%;
+}
+.cal-2-skill {
+    margin-bottom: 15px;
+    grid-area: col2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    font-size: 80px;
+}
+.skillis-item-s {
+    display: flex;
+    gap: 30px;
+}
+.skill-icon {
+    background: #fff;
+    width: max-content;
+    padding: 0 10px;
+    border-radius: 50px;
+    color: red;
+}
+.social-buttons-s {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -10px;
+  }
+  .social-buttons__button {
+    margin: 10px 5px 0;
+  }
+  
+  .social-button-s {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    width: 120px;
+    height: 120px;
+    text-decoration: none;
+    border-radius: 100%;
+    background: #fff;
+    text-align: center;
+  }
+  .social-button-s::after {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 100%;
+    transition: 0.3s;
+  }
+  .social-button-s:focus, .social-button-s:hover {
+    color: #fff;
+  }
+  .social-button-s:focus::after, .social-button-s:hover::after {
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    margin-left: calc(-50% - 1px);
+  }
+  .social-button-s i,
+  .social-button-s svg {
+    position: relative;
+    z-index: 1;
+    transition: 0.3s;
+  }
+  .social-button-s i {
+    font-size: 80px;
+  }
+  .social-button-s svg {
+    height: 80%;
+    width: 80%;
+  }
+  .social-button--mail {
+    color: #0072c6;
+  }
+  .social-button--mail::after {
+    background: #0072c6;
+  }
+  .social-button--css {
+    color: #3b5999;
+  }
+  .social-button--css::after {
+    background: #3b5999;
+  }
+  .social-button--html {
+    color: #eb6f1d;
+  }
+  .social-button--html::after {
+    background: #eb6f1d;
+  }
+  .social-button--github {
+    color: #6e5494;
+  }
+  .social-button--github::after {
+    background: #6e5494;
+  }
+  .social-button--codepen {
+    color: #212121;
+  }
+  .social-button--codepen::after {
+    background: #212121;
+  }
+  .social-button--steam {
+    color: #7da10e;
+  }
+  .social-button--steam::after {
+    background: #7da10e;
+  }
+  .social-button--react {
+    color: #0c598d;
+  }
+  .social-button--react::after {
+    background: #0c598d;
+  }
+  .social-button--twitter {
+    color: #55acee;
+  }
+  .social-button--twitter::after {
+    background: #55acee;
+  }
+  .social-button--javascript {
+    color: #ebca11;
+  }
+  .social-button--javascript::after {
+    background: #ebca11;
+  }
+  .social-button--npmjs {
+    color: #c12127;
+  }
+  .social-button--npmjs::after {
+    background: #c12127;
+  }
+  .social-button--bootstrap {
+    color: #9b279b;
+  }
+  .social-button--bootstrap::after {
+    background: #9b279b;
+  }
