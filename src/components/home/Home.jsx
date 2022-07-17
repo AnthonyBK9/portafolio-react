@@ -1,6 +1,7 @@
 import React from 'react'
 import video from '../../assets/video/video.mp4'
 import './style/home.css'
+
 const Home = () => {
   
   return (

@@ -15,27 +15,45 @@ const Skills = () => {
               <div className="skills-item">
                 <div className="skillis-item-s">
                   <div className="social-buttons-s">
-                    <div className="social-buttons__button social-button-s social-button--html" aria-label="LinkedIn">
-                      <i className="fa-brands fa-html5"></i>
+                    <div className="social-content">
+                      <p className="social-title social-button--html">HTML5</p>
+                      <div className="social-buttons__button social-button-s social-button--html" aria-label="LinkedIn">
+                        <i className="fa-brands fa-html5"></i>
+                      </div>
                     </div>
-                    <div className="social-buttons__button social-button-s social-button--css" aria-label="Facebook">
-                      <i className="fa-brands fa-css3-alt"></i>
+                    <div className="social-content">
+                      <p className="social-title social-button--css">CSS3</p>
+                      <div className="social-buttons__button social-button-s social-button--css" aria-label="Facebook">
+                        <i className="fa-brands fa-css3-alt"></i>
+                      </div>
                     </div>
-                    <div className="social-buttons__button social-button-s social-button--react" aria-label="SnapChat">
-                      <i className="fa-brands fa-react"></i>
+                    <div className="social-content">
+                      <p className="social-title social-button--javascript">Javascript</p>
+                      <div className="social-buttons__button social-button-s social-button--javascript" aria-label="CodePen">
+                        <i className="fa-brands fa-js-square"></i>
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div className="skillis-item-s">
                   <div className="social-buttons-s">
-                    <div className="social-buttons__button social-button-s social-button--github" aria-label="GitHub">
-                      <i className="fab fa-github"></i>
+                    <div className="social-content">
+                      <p className="social-title social-button--github">GitHub</p>
+                      <div className="social-buttons__button social-button-s social-button--github" aria-label="GitHub">
+                        <i className="fab fa-github"></i>
+                      </div>
                     </div>
-                    <div className="social-buttons__button social-button-s social-button--javascript" aria-label="CodePen">
-                      <i className="fa-brands fa-js-square"></i>
+                    <div className="social-content">
+                      <p className="social-title social-button--react">React</p>
+                      <div className="social-buttons__button social-button-s social-button--react" aria-label="SnapChat">
+                        <i className="fa-brands fa-react"></i>
+                      </div>
                     </div>
-                    <div className="social-buttons__button social-button-s social-button--bootstrap" aria-label="CodePen">
-                      <i className="fa-brands fa-bootstrap"></i>
+                    <div className="social-content">
+                      <p className="social-title social-button--bootstrap">Bootstrap</p>
+                      <div className="social-buttons__button social-button-s social-button--bootstrap" aria-label="CodePen">
+                        <i className="fa-brands fa-bootstrap"></i>
+                      </div>
                     </div>
                   </div>
                 </div>
