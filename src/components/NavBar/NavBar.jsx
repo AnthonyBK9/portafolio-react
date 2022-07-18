@@ -10,7 +10,7 @@ const NavBar = ({toggle}) => {
             <div className="nav__container">
               <a href="#home"  className="nav__logo">
                 <div className="nav__logo-text">
-                    <p><span>{'<'}</span>Antonio Bermudez <span>{'/>'}</span></p>
+                    <p><span>{'<'}</span> Antonio Bermudez <span>{'/>'}</span></p>
                 </div>
               </a>
               <div className="mobile-icon" onClick={toggle}>

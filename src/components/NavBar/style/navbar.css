@@ -3,7 +3,6 @@
 .nav {
     background: #0e0e0e;
     height: 80px;
-    /* margin-top: -80px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +32,7 @@
 }
 .nav__logo {
     color: #01bf71;
+    text-shadow: 0 0px 10px rgba(183, 209, 231, 0.884);
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -43,8 +43,20 @@
     font-weight: 600;
     text-decoration: none;
 }
+@media screen and (max-width: 425px) {
+    .nav__logo {
+        display: none !important;
+    }
+}
+.nav__logo:hover {
+    color: #02e285;
+    text-shadow: 0 0px 15px rgba(183, 209, 231, 0.884);
+}
 .nav__logo-text span {
     color: #00aeff;
+}
+.nav__logo-text:hover span {
+    color: #5ac9fc;
 }
 .mobile-icon {
     display: none;
@@ -86,4 +98,3 @@
 .navbar__links-active{
     border-bottom: 3px solid #01bf71;
 }
-

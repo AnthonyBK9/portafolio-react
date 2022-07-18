@@ -1,17 +1,47 @@
 import React from 'react'
 import video from '../../assets/video/video.mp4'
 import './style/home.css'
+import pdf from '../../assets/pdf/cv-antonio.pdf'
 
 const Home = () => {
-  
+  // const typeWriter = document.querySelector("typewriter-text");
+  // const text = "Lorem ipsum dolor sit amet.";
+  // console.log(typeWriter);
+  // typeWriter.textContent = text;
+  // typeWriter.style.setProperty("--characters", text.length);
+
   return (
-    <div className="home-container" id="home">
-        <div className="home-bg">
-          <video src={video} autoPlay loop muted type='video/mp4' className="home-video"/>
-        </div>
-        <div className="home-content">
-          <h1 className="home-title">Desarrollador Web Front End</h1>
-          <h2 className="home-name">Antonio Bermudez</h2>
+    <div className="home" id="home">
+        <div className="home-container">
+          <div className="home-content">
+            <h1 className="home-title">Desarrollador Web Front End</h1>
+            <p className="home-experience">Con experiencia en React y NodeJS</p>
+            <div className="center">
+              <button className="btn">
+                <svg width="180px" height="60px" viewBox="0 0 180 60" className="border">
+                  <polyline points="179,1 179,59 1,59 1,1 179,1" className="bg-line" />
+                  <polyline points="179,1 179,59 1,59 1,1 179,1" className="hl-line" />
+                </svg>
+                <span><a href={pdf} target="_blank" rel="noopener noreferrer" download="cv-antonio">Descargar CV</a></span>
+              </button>
+            </div>
+            <div className='content'>
+              <div className='visible'>
+                <p className="p">
+                  ¡Hola
+                </p>
+                <ul className="ul">
+                  <li className="li"> Mundo!</li>
+                  <li className="li"> react!</li>
+                  <li className="li"> usuario!</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="home-video">
+            <video src={video} autoPlay loop muted type='video/mp4' className="home-video"/>
+          </div>
+          <div className="overflow"></div>
         </div>
     </div>  
   )

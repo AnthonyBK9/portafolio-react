@@ -12,23 +12,30 @@ const Sidebar = ({isOpen, toggle}) => {
         <div className="sidebar-wrapper">
             <ul className="sidebar-menu">
                 <li>
+                  <a href="#home"  className="nav__logo-sidebar sidebar-links">
+                    <div className="nav__logo-sidebar">
+                        <p><span className="span">{'<'}</span> Inicio <span className="span">{'/>'}</span></p>
+                    </div>
+                  </a>
+                </li>
+                <li>
                     <a href="#about" className="sidebar-links">
-                      <p>Sobre mí</p>
+                      <p><span className="span">{'<'}</span> Sobre mí <span className="span">{'/>'}</span></p>
                     </a>
                 </li>
                 <li>
                     <a href="#skills" className="sidebar-links">
-                      <p>Tecnologías</p>
+                      <p><span className="span">{'<'}</span> Tecnologías <span className="span">{'/>'}</span></p>
                     </a>
                 </li>
                 <li>
                     <a href="#portafolio" className="sidebar-links">
-                      <p>Portafolio</p>
+                      <p><span className="span">{'<'}</span> Portafolio <span className="span">{'/>'}</span></p>
                     </a>
                 </li>
                 <li>
                     <a href="#contact" className="sidebar-links">
-                      <p>Contacto</p>
+                      <p><span className="span">{'<'}</span> Contacto <span className="span">{'/>'}</span></p>
                     </a>
                 </li>
             </ul>

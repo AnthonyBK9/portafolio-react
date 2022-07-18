@@ -8,7 +8,7 @@ const Skills = () => {
         <div className="skills-container">
           <div className="row-skills">
             <div className="col-1-skill">
-              <h2>Habilidades Tecnológicas</h2>
+              <h2 className="skills-title">Habilidades Tecnológicas</h2>
               <img src={images[1].img} alt={images[1].title} />
             </div>
             <div className="cal-2-skill">

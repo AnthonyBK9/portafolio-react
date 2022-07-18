@@ -13,6 +13,7 @@
     top: 0;
     transition: transform 0.3s ease-in-out;
     transform: translateX(100%);
+    border-left: 3px solid #01bf71;
 }
 .sidebar-container-open {
     transition: transform 600ms ease;
@@ -28,14 +29,21 @@
         transform: translateX(150%);
     }
 }
+@media screen and (max-width: 425px) {
+    .sidebar-container {
+        border-left: 3px solid #01bf71;
+        border-right: 3px solid #01bf71;
+    }
+}
 .sidebar-icon {
     position: absolute;
     top: 1.2rem;
     right: 1.5rem;
     background: transparent;
-    font-size: 2rem;
+    font-size: 3.5rem;
     cursor: pointer;
     outline: none;
+    color: rgb(180, 30, 30);
 }
 .sidebar-wrapper {
     margin-top: 80px;
@@ -69,16 +77,26 @@
     transition: 0.2s ease-in-out;
 }
 .sidebar-item {
-    margin-top: 180px;
+    margin-top: 260px;
     display: flex;
     justify-content: center;
     gap: 30px;
     font-size: 30px;
     color: #0b1f71;
 }
-.sidebar-item-github{
-    color: red;
+.nav__logo {
+    color: #01bf71;
+    text-shadow: 0 0px 10px rgba(183, 209, 231, 0.884);
+    justify-self: flex-start;
+    cursor: pointer;
+    font-size: 23px;
+    display: flex;
+    align-items:center;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-left: 24px;
+    font-weight: 600;
+    text-decoration: none;
 }
-.sidebar-item-linkedin {
-    color: blue;
+.span {
+    color: #00aeff;
 }
