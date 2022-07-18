@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link, NavLink } from 'react-router-dom'
 import './style/sidebar.css'
 
 const Sidebar = ({isOpen, toggle}) => {
