@@ -4,11 +4,6 @@ import './style/home.css'
 import pdf from '../../assets/pdf/cv-antonio.pdf'
 
 const Home = () => {
-  // const typeWriter = document.querySelector("typewriter-text");
-  // const text = "Lorem ipsum dolor sit amet.";
-  // console.log(typeWriter);
-  // typeWriter.textContent = text;
-  // typeWriter.style.setProperty("--characters", text.length);
 
   return (
     <div className="home" id="home">
