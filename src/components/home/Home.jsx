@@ -1,7 +1,6 @@
 import React from 'react'
 import video from '../../assets/video/video.mp4'
 import './style/home.css'
-import pdf from '../../assets/pdf/cv-antonio.pdf'
 
 const Home = () => {
 
@@ -13,11 +12,7 @@ const Home = () => {
             <p className="home-experience">Con experiencia en React y NodeJS</p>
             <div className="center">
               <button className="btn">
-                <svg width="180px" height="60px" viewBox="0 0 180 60" className="border">
-                  <polyline points="179,1 179,59 1,59 1,1 179,1" className="bg-line" />
-                  <polyline points="179,1 179,59 1,59 1,1 179,1" className="hl-line" />
-                </svg>
-                <span><a href={pdf} target="_blank" rel="noopener noreferrer" download="cv-antonio">Descargar CV</a></span>
+                <a href='../../assets/pdf/cv-antonio.pdf' target="_blank" download="cv-antonio.pdf">Descargar CV</a>
               </button>
             </div>
             <div className='content'>
