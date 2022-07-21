@@ -90,6 +90,10 @@
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 700;
 }
+.home-cv {
+  position: relative;
+  z-index: 999;
+}
 svg {
     position: absolute;
     left: 0;

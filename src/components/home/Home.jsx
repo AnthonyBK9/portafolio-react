@@ -12,7 +12,11 @@ const Home = () => {
             <p className="home-experience">Con experiencia en React y NodeJS</p>
             <div className="center">
               <button className="btn">
-                <a href='../../assets/pdf/cv-antonio.pdf' target="_blank" download="cv-antonio.pdf">Descargar CV</a>
+                <svg width="180px" height="60px" viewBox="0 0 180 60" className="border">
+                  <polyline points="179,1 179,59 1,59 1,1 179,1" className="bg-line" />
+                  <polyline points="179,1 179,59 1,59 1,1 179,1" className="hl-line" />
+                </svg>
+                <a className='home-cv' href='/AntonioBermudezCV.pdf' target='blank'>Descargar CV</a>
               </button>
             </div>
             <div className='content'>
