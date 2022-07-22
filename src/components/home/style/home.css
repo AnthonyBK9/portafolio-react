@@ -93,6 +93,7 @@
 .home-cv {
   position: relative;
   z-index: 999;
+  font-size: 20px;
 }
 svg {
     position: absolute;
