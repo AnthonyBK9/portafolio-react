@@ -21,7 +21,7 @@ const Pages = () => {
         <AboutMe />
         <Skills />
         <Portafolio />
-        {/* <Contact /> */}
+        <Contact />
     </>
   )
 }

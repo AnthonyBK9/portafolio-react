@@ -156,14 +156,34 @@
 @media screen and (max-width: 768px) {
     
     .portfolio-container {
-        padding: 150px;
+        padding: 10px;
+        height: 100%;
     }
     .card-container{
         grid-template-columns: 1fr;
         gap: 30px;
-        padding-top: 500px;
+        padding-top: 300px;
     }
     .portafolio-content{
         margin-top: 150px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .portfolio-container {
+        padding: 0;
+    }
+    .card-container {
+        padding-top: 200px;
+    }
+    .card {
+        width: 260px;
+        
+    }
+    .portfolio-title {
+        font-size: 30px;
+    }
+    .card:hover {
+        width: 270px;
+        height: 437px;
     }
 }
