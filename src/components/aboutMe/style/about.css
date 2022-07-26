@@ -60,6 +60,9 @@
     line-height: 1.5;
 }
 @media screen and (max-width: 768px) {
+    .about-container {
+        margin-top: -35px;
+    }
     .row {
         grid-template-areas: 
         'col1'
@@ -67,12 +70,12 @@
         ;
     }
     .col-2 {
-        margin-top: -300px;
+        margin-top: -100px;
     }
     .col-2 img {
+        
         width: 80%;
         margin: 0 auto;
-        margin-left: 25px;
     }
     .about-content {
         max-width: 840px;
@@ -118,5 +121,8 @@
 @media screen and (max-width: 320px) {
     .col-2 img {
         width: 100%;
+    }
+    .about-container {
+        margin-top: -55px;
     }
 }

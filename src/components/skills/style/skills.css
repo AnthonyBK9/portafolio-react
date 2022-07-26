@@ -254,6 +254,11 @@
         gap: 60px;
     }
 }
+@media screen and (max-width: 768px) {
+  .skills-container {
+    padding-top: 40px;
+  }
+}
 @media screen and (max-width: 425px) {
   .social-buttons-s {
     display: flex;
@@ -261,8 +266,23 @@
     gap: 20px;
     justify-content: center;
   }
+  .col-1-skill {
+    margin-bottom: 40px;
+  }
   .col-1-skill h2 {
     font-size: 25px;
     margin-bottom: 20px;
+  }
 }
+@media screen and (max-width: 375px) {
+  .skills-container {
+    padding-top: 80px;
+  }
+  .col-1-skill {
+    padding-bottom: 65px;
+  }
+  .col-2-skill {
+    padding-top: 160px;
+  }
+
 }

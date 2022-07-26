@@ -32,11 +32,6 @@ const Sidebar = ({isOpen, toggle}) => {
                       <p><span className="span">{'<'}</span> Portafolio <span className="span">{'/>'}</span></p>
                     </a>
                 </li>
-                <li>
-                    <a href="#contact" className="sidebar-links">
-                      <p><span className="span">{'<'}</span> Contacto <span className="span">{'/>'}</span></p>
-                    </a>
-                </li>
             </ul>
             <div className="social-buttons-b sidebar-item">
               <a href="https://github.com/AnthonyBK9" className="social-buttons__button social-button social-button--github" aria-label="GitHub" target="_blank">

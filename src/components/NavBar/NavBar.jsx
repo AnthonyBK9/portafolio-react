@@ -32,11 +32,6 @@ const NavBar = ({toggle}) => {
                       <p>Portafolio</p>
                     </a>
                   </li>
-                  <li className="navbar__item">
-                    <a href="#contact" className="navbar__links">
-                      <p>Contacto</p>
-                    </a>
-                  </li>
                 </ul>
               </nav>
             </div>

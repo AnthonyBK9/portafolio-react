@@ -258,8 +258,18 @@ svg {
     }
   }
 
+  @media screen and (max-width: 768px)  {
+    .home-content {
+      margin-top: -80px;
+      gap: 10px;
+      text-align: center;
+      line-height: 1;
+    }
+  }
+
 @media screen and (max-width: 425px) {
     .home-content {
+        margin-top: -80px;
         gap: 10px;
         text-align: center;
         line-height: 1;
