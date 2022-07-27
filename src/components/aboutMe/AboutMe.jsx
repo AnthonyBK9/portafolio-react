@@ -7,7 +7,7 @@ const AboutMe = () => {
     <div className="about" id="about">
         <div className="about-container">
           <div className="row">
-            <div className="col-1">
+            <div className="col-1" data-aos="fade-right">
               <div className="about-content">
                 <h2 className="about-title">Sobre mí</h2>
                 <p className="about-text"><span>¡Hola Soy Antonio Bermúdez!</span> me desempeño como 
@@ -18,7 +18,7 @@ const AboutMe = () => {
                     problemas, con una sólida ética de trabajo.</p>
               </div>
             </div>
-            <div className="col-2">
+            <div className="col-2" data-aos="zoom-in">
               <img src={images[0].img} alt={images[0].title} />
             </div>
           </div>
